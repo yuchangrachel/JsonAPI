@@ -1,0 +1,19 @@
+{
+  "name": "jsonapi",
+  "version": "1.0.0",
+  "description": "Implement routes as below: 1./api/ping Response body (JSON): { \"success\": true } Response status code: 200 2./api/posts?tags=topic1,topic2&sortedBy=oneOf&direction=desc tag's parameters: comma seperated by list of tags(must have at least one tag) sortedBy's parameters: id(default), reads, likes, popularity direction's parameters: asc(default), desc",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "uu",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.14"
+  }
+}
